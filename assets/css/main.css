@@ -146,8 +146,11 @@ nav .button1 {
 }
 
 .header-arrow i {
-  text-align: center;
+  font-size: 70px;
+  position: absolute;
+  top: 25%;
   color: #fff;
+  left: 30%;
 }
 
 .header h3 {
