@@ -1,0 +1,77 @@
+
+.header {
+  position: relative;
+}
+
+.header-image {
+  position: relative;
+}
+
+.header-info {
+  background-color: $white;
+  position:absolute;
+  bottom:0%;
+  left : 32%;
+  padding: 1%;
+}
+
+ .header-info-data {
+   margin-left: 1%;
+   box-sizing: border-box;
+   display: inline-block;
+   width: 23%;
+
+ }
+
+ .header-info-data1 {
+   display: inline-block;
+   width: 35%;
+
+ }
+
+ .header .header-title {
+   text-align: justify;
+   display: inline-block;
+   width: 20%;
+   height: inherit;
+   margin-left: 2%;
+ }
+
+ .header-title h1 {
+   font-size: $xxx-large;
+
+ }
+
+ .header-title p {
+   font-size: $x-large;
+
+ }
+
+ .header .header-yellow {
+   background-color: $coral;
+   width: 140px;
+   height: 140px;
+   z-index: 1;
+   bottom: 0%;
+   position: absolute;
+   right: 23%;
+ }
+
+ .header .header-arrow {
+   background-color: $flame;
+   width: 140px;
+   height: 140px;
+   position: absolute;
+   bottom: 7%;
+   right: 25%;
+   z-index: 2;
+ }
+
+ .header-arrow i {
+   text-align: center;
+   color: $white;
+ }
+
+ .header h3 {
+   font-size: $xx-large;
+ }

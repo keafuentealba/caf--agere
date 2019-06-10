@@ -1,0 +1,53 @@
+.article {
+  position: relative;
+}
+
+.article .article-text {
+  position: absolute;
+  width: 32%;
+  text-align: left;
+  padding: 3% 5%;
+}
+
+.article .article-blue {
+  position: absolute;
+  left: 32%;
+  background-color: $blue-de-frace;
+  height: 230px;
+  width: 500px;
+}
+
+.article .article-map {
+  position: absolute;
+  left: 29%;
+}
+
+.article-map img {
+  position: relative;
+  width: 48%;
+  margin-top: 3%;
+
+}
+
+.article .article-grain {
+  position: absolute;
+  left: 60%;
+  z-index: 1000000;
+}
+
+.article-grain img {
+  width: 35% ;
+  height: 90%;
+  transform: rotate(90deg);
+  margin-top: 9%;
+}
+
+.article .article-coffe {
+  position: absolute;
+  right: 0%;
+  width: 35%
+}
+
+.article-coffe img {
+  width: 100%
+}
